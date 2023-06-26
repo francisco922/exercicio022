@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -26,6 +27,11 @@
         thead,tfoot {
             background-color: black;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top:-1px;
+            background-color:black ;
         }
         /* EFEITO ZEBRADO : 2N, ODD,EVEN*/
         tbody > tr:nth-child(odd){
@@ -211,6 +217,9 @@ TD = dado.
     </tfoot>
 
 </table>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias dicta voluptatem aspernatur, sit, deserunt fuga distinctio quia minima velit, sunt modi. Vitae, et? Sunt reprehenderit nam tenetur ipsa officiis? Cupiditate.
+</p>
 
     
 </body>
